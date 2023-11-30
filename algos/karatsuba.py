@@ -7,7 +7,7 @@ def karatsuba(x, y):
         # Split
         base1 = len(str(x))
         base2 = len(str(y))
-        base = 10**(math.ceil(max(base1, base2) / 2))
+        base = 10 ** (math.ceil(max(base1, base2) / 2))
 
         # Get x1, x0, y1, y0
         x1 = x // base
@@ -21,4 +21,4 @@ def karatsuba(x, y):
     
         return z2 * base ** 2 + z1 * base + z0
     
-print(karatsuba(12345,6789))
+print(karatsuba(1210,200))
