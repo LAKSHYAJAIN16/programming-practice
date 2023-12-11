@@ -1,7 +1,5 @@
 t = int(input())
 l = []
-
-# def evaluate_raw(string):
     
 def evaluate_expression(inp):
     # Check for Parenthesis
