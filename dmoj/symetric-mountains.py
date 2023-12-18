@@ -9,6 +9,7 @@ outs.append(sum_1)
             
 for i in range(1, n + 1):
     maxes = []
+    
     for j in range(0, i + 1):
         # Run Two Patterns for each time
         index_1 = j
@@ -20,6 +21,7 @@ for i in range(1, n + 1):
             del ar[:index_1]
         if index_2 != 0:
             del ar[-index_2:]
+        print(ar)
         
         if ar == []:
             # continue
